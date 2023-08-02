@@ -2916,7 +2916,6 @@
 /* Banner */
 
 	#banner {
-		padding: 8em 0 9em 0;
 		background-image: url(../../images/banner.jpg);
 		background-size: cover;
 		background-position: bottom;
@@ -2937,7 +2936,7 @@
 		}
 
 		#banner .inner {
-			border-top: 2px solid rgba(255, 255, 255, 0.2);
+			border-top: 2px solid #749BC2;
 			position: relative;
 			z-index: 10005;
 			padding-top: 8em;
@@ -2981,7 +2980,7 @@
 		}
 
 			#banner .flex div {
-				border-right: 2px solid rgba(255, 255, 255, 0.2);
+				border-right: 2px solid #749BC2;
 				padding: 0 8em;
 			}
 
