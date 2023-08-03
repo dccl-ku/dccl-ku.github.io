@@ -2738,7 +2738,7 @@
 		}
 
 			#header .logo strong {
-				color: #ffffff;
+				color: #2c3579;
 				font-weight: 600;
 			}
 
@@ -2762,6 +2762,7 @@
 
 			#nav a:hover {
 				cursor: pointer;
+				
 				color: #4682A9;
 				background-color:#D1E9F5;
 			}
