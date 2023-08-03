@@ -2730,11 +2730,11 @@
 			height: inherit;
 			left: 0;
 			line-height: inherit;
-			margin: 0;
+			margin: 2px 0;
 			padding: 0;
 			position: absolute;
 			top: 0;
-			font-size: 1em;
+			font-size: 2em;
 		}
 
 			#header .logo strong {
