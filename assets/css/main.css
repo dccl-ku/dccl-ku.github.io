@@ -2697,7 +2697,7 @@
 	}
 
 		.subpage #header {
-			background: #6cc091;
+			background: #749BC2;
 			top: 0;
 			height: 44px;
 			line-height: 44px;
@@ -2705,14 +2705,15 @@
 		}
 
 	#header {
+		background: #749BC2;
 		color: #fff;
 		cursor: default;
-		height: 3.25em;
+		height: 15em;
 		left: 0;
 		line-height: 3.25em;
-		position: absolute;
+		position: relative;
 		text-align: right;
-		top: 2em;
+		/* top: 2em; */
 		width: 100%;
 		z-index: 10001;
 	}
@@ -2742,6 +2743,7 @@
 			}
 
 		#header a {
+			
 			-moz-transition: color 0.2s ease-in-out;
 			-webkit-transition: color 0.2s ease-in-out;
 			-ms-transition: color 0.2s ease-in-out;
