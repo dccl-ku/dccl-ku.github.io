@@ -3056,3 +3056,31 @@
 			}
 
 		}
+
+/*members html*/
+	.gall_date {
+		font-size:11px;
+	}
+	.gall_name {
+		font-size:11px;
+	}
+
+	.members{
+		height: 172.793px;
+		width: 1000px;
+		display: table;
+		float:inherit;
+		/* padding: 0 2em;
+		float : left; */
+	}
+
+	.members:last-child {
+		padding-right: 0;
+	}
+
+	.alignleft{
+		margin-left: 10px;
+		margin-right: 52px;
+		width:130px;
+		height:161px;
+	}
