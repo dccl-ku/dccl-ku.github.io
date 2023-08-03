@@ -2699,8 +2699,8 @@
 		.subpage #header {
 			background: #749BC2;
 			top: 0;
-			height: 44px;
-			line-height: 44px;
+			height: 13em;
+			line-height: 3.25em;
 			position: fixed;
 		}
 
@@ -2708,7 +2708,7 @@
 		background: #749BC2;
 		color: #fff;
 		cursor: default;
-		height: 15em;
+		height: 13em;
 		left: 0;
 		line-height: 3.25em;
 		position: relative;
