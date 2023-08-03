@@ -2557,7 +2557,7 @@
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(108, 192, 145, 0.15);
+			background-color: rgba(108, 192, 145, 0.15); /*나중에 바꿀 수 있으면 바꾸기~*/
 		}
 
 		input[type="submit"].icon,
