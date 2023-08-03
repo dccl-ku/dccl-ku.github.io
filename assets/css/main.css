@@ -2761,6 +2761,7 @@
 			} */
 
 			#nav a:hover {
+				cursor: pointer;
 				color: #4682A9;
 				background-color:#D1E9F5;
 			}
