@@ -2756,11 +2756,12 @@
 		}
 
 			#header a:hover {
-				color: #ffffff;
+				color: #4682A9;
+				background-color:#D1E9F5;
 			}
 
 			#header a:last-child {
-				padding-right: 0;
+				padding-right: 0.75em;
 			}
 
 			#header a.navPanelToggle {
