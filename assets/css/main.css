@@ -3078,9 +3078,14 @@
 		padding-right: 0;
 	}
 
+	.members ul{
+		margin-top:43px;
+	}
+
 	.alignleft{
 		margin-left: 10px;
 		margin-right: 52px;
-		width:130px;
-		height:161px;
+		width:70px;
+		height:120px;
 	}
+
