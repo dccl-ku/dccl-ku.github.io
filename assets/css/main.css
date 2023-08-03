@@ -2840,8 +2840,8 @@
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: #6cc091;
-		color: #daefe3;
+		background: #749BC2;
+		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
 		width: 20em;
@@ -2858,9 +2858,9 @@
 			visibility: visible;
 		}
 
-		#navPanel a:not(.close) {
-			border-top: solid 1px #8dcca9;
-			color: #daefe3;
+		#navPanel a:not(.close) { /*navPanel 밑 줄*/
+			border-top: solid 1px #D1E9F5;
+			color: #ffffff;
 			font-weight: 600;
 			display: block;
 			padding: 0.75em 0;
