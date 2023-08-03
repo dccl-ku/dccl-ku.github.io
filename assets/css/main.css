@@ -3071,9 +3071,9 @@
 
 	.members{
 		height: 172.793px;
-		width: 1000px;
+		width: 200px;
 		display: table;
-		float:inherit;
+		float:left;
 		/* padding: 0 2em;
 		float : left; */
 	}
