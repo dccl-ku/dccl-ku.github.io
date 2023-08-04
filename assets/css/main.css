@@ -2697,16 +2697,16 @@
 
 /* Header */
 
-	.subpage {
+	/* .subpage {
 		padding-top: 44px;
-	}
+	} */
 
 		.subpage #header {
 			background: #749BC2;
 			top: 0;
 			height: 13em;
 			line-height: 3.25em;
-			position: fixed;
+			position: relative;
 		}
 
 	#header {
