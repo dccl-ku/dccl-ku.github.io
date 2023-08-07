@@ -2735,15 +2735,15 @@
 			height: inherit;
 			left: 0;
 			line-height: inherit;
-			margin: 2px 0;
+			margin: 10px ;
 			padding: 0;
-			position: absolute;
+			/*position: absolute;*/
 			top: 0;
 			font-size: 2em;
 		}
 
 			#header .logo strong {
-				color: #2c3579;
+				/*color: #2c3579;*/
 				font-weight: 600;
 			}
 
@@ -3005,11 +3005,18 @@
 
 /* Footer */
 
-	#footer {
+	#footer {/*
 		padding: 6em 0;
-		/*background: #6cc091;*/
+		background: #6cc091;
 		color: #fff;
-		text-align: center;
+		text-align: center;*/
+		background: #749BC2;
+			text-align: center;
+			color: white;
+			font-weight: 200;
+			font-size: 0.8em;
+			padding: 2em 0 2em 0;
+			
 	}
 
 		#footer h3 {
@@ -3023,18 +3030,32 @@
 		}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.5);
+			background: #749BC2;
+			text-align: center;
+			color: white;
+			font-weight: 200;
 			font-size: 0.8em;
-			margin: 0 0 2em 0;
-			padding: 0;
+			padding: 2em 0 2em 0;
+			}
+
+		#footer .inner {
+			background: #749BC2;
+			text-align: center;
+			color: white;
+			font-weight: 200;
+			font-size: 0.8em;
+			padding: 2em 0 2em 0;
+
 		}
+
+
 .copyright {
 	background: #749BC2;
 	text-align: center;
 	color: white;
 	font-weight: 200;
 	font-size: 0.8em;
-	padding: 2em 0 2em 0;
+	/*padding: 2em 0 2em 0;*/
 }
 .copyright a {
 	color: white;
