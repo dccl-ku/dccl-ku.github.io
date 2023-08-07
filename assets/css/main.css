@@ -2701,13 +2701,13 @@
 		padding-top: 44px;
 	} */
 
-		.subpage #header {
-			background: #749BC2;
-			top: 0;
-			height: 100px;
-			/* line-height: 3.25em; */
-			position: relative;
-		}
+	.subpage #header {
+		background: #749BC2;
+		top: 0;
+		height: 100px;
+		/* line-height: 3.25em; */
+		position: relative;
+	}
 
 	#header {
 		background: #749BC2;
@@ -2715,10 +2715,9 @@
 		cursor: default;
 		height: 100px;
 		left: 0;
-		/* line-height: 3.25em; */
 		position: relative;
 		text-align: right;
-		/* top: 2em; */
+		/* top: 1em; */
 		width: 100%;
 		z-index: 10001;
 	}
