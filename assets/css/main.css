@@ -3021,6 +3021,9 @@
 			font-weight: 200;
 			font-size: 0.8em;
 			padding: 2em 0 2em 0;
+			margin: 0 auto;
+			float: center;
+			overflow: hidden;
 			
 	}
 
@@ -3036,28 +3039,31 @@
 
 		#footer .copyright {
 			background: #749BC2;
-			
 			color: white;
+			/*float: right;*/
 			/*font-weight: 200;*/
-			font-size: 0.8em;
+			font-size: 0.9em;
 			margin: 10px;
+			display: inline-block;
 			/*padding: 2em 0 2em 0;*/
 			}
 
 		#footer .inner {
+		
 			background: #749BC2;
-			margin: auto;
 			color: white;
 			font-weight: 200;
-			font-size: 0.8em;
+			font-size: 0.9em;
 			padding: 2em 0 2em 0;
+			margin: 0 auto;
 
 		}
 .footer_img{
+	/*float: left;*/
+	vertical-align:middle;
+	display: inline-block;
+	margin-bottom: 10px;
 
-	float: left; 
-
-	margin-top: 8px;
 }
 
 
@@ -3065,8 +3071,7 @@
 	background: #749BC2;
 	text-align: left;
 	color: white;
-
-	font-size: 0.8em;
+	font-size: 0.9em;
 	/* font-weight: 200;
 	padding: 2em 0 2em 0;*/
 }
