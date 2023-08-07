@@ -2704,8 +2704,8 @@
 		.subpage #header {
 			background: #749BC2;
 			top: 0;
-			height: 13em;
-			line-height: 3.25em;
+			height: 100px;
+			/* line-height: 3.25em; */
 			position: relative;
 		}
 
@@ -2713,9 +2713,9 @@
 		background: #749BC2;
 		color: #fff;
 		cursor: default;
-		height: 13em;
+		height: 100px;
 		left: 0;
-		line-height: 3.25em;
+		/* line-height: 3.25em; */
 		position: relative;
 		text-align: right;
 		/* top: 2em; */
@@ -3136,4 +3136,9 @@
 		height:171px;
 		text-align: center;
 	}
-
+/*home picture section*/
+#home-picture{
+	width:100%;
+	height:400px;
+	overflow:hidden;
+}
