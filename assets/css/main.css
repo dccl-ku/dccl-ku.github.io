@@ -2726,16 +2726,17 @@
 		#header .inner {
 			margin: 0 auto;
 			position: relative;
-			height: 80px;
+			
 		}
 
 		#header .logo {
 			color: #ffffff;
+			
+			/*
 			display: inline-block;
-			/*font-weight: 50;
+			font-weight: 50;
 			height: inherit;
 			left: 0;
-			line-height: inherit;
 			margin: 10px ;
 			padding: 0;
 			position: absolute;*/
@@ -2744,7 +2745,7 @@
 			text-align: left;
 			margin: 10px ;
 			font-size: 1em;
-			height: auto; 
+			line-height: inherit;
 		}
 
 			/*#header .logo strong {
@@ -3058,9 +3059,10 @@
 	background: #749BC2;
 	text-align: center;
 	color: white;
-	font-weight: 200;
+
 	font-size: 0.8em;
-	/*padding: 2em 0 2em 0;*/
+	/* font-weight: 200;
+	padding: 2em 0 2em 0;*/
 }
 .copyright a {
 	color: white;
