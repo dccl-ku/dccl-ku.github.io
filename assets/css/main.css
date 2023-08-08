@@ -3132,6 +3132,13 @@
 		}
 
 /*members html*/
+
+.name{
+
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
 	.gall_date {
 		font-size:11px;
 	}
@@ -3146,8 +3153,8 @@
 	.members{
 		height: auto;
 		width: 400px;
-		padding : 0 2em;
-		margin:auto;
+		padding : 0 0;
+		margin:0;
 		float:left;
 	}
 /*
@@ -3156,7 +3163,8 @@
 	}*/
 
 	.members ul{
-		margin-top:43px;
+		margin-left:20%;
+		
 	}
 
 	.alignleft{
