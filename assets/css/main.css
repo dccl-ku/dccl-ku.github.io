@@ -3021,9 +3021,9 @@
 
 /*three(본문)*/
 #three{
-	height:800px;
-	min-height: 100%;
-	padding-bottom: 160px;
+	height:1500px;
+	width:100%;
+	overflow:hidden;
 }
 
 /* Footer */
@@ -3144,18 +3144,16 @@
 	}
 
 	.members{
-		height: 172.793px;
+		height: auto;
 		width: 400px;
-		display: table;
-		float:left;
 		padding : 0 2em;
-		/* padding: 0 2em;
-		float : left; */
+		margin:auto;
+		float:left;
 	}
-
-	.members:last-child {
+/*
+	.members:nth-child(3n) {
 		padding-right: 0;
-	}
+	}*/
 
 	.members ul{
 		margin-top:43px;
@@ -3169,6 +3167,48 @@
 		height:171px;
 		text-align: center;
 	}
+
+	.members_row{
+		margin:0 auto;
+		width:1500px;
+		height:800px;
+	}
+
+	.wrapper{
+
+		margin:0 auto;
+		clear:both;
+		overflow:auto;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+/*
+	.row {
+		border-bottom: solid 1px transparent;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.row > * {
+		float: left;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+
+	.row:after, .row:before {
+		content: '';
+		display: block;
+		clear: both;
+		height: 0;
+	}*/
+	.members_inner{
+		
+	}
+
 /*home picture section*/
 #home-picture{
 	width:100%;
