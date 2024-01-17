@@ -3194,7 +3194,7 @@
 	}
 
 	.wrapper{
-		margin:0;
+		margin:auto;
 		clear:both;
 		overflow:auto;
 		display:flex;
