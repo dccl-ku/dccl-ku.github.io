@@ -1769,7 +1769,7 @@
 		max-width: 75em;
 		margin: 0 auto;
 		position:relative;
-		height: 100px;
+		height: auto;
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -3026,6 +3026,8 @@
 	overflow:hidden;
 }
 
+
+
 /* Footer */
 
 	#footer {
@@ -3071,7 +3073,7 @@
 			}
 
 		#footer .inner {
-		
+
 			background: #749BC2;
 			color: white;
 			font-weight: 200;
