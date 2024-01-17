@@ -3162,7 +3162,7 @@
 	}
 
 	.members{
-		height: 0;
+		height: auto;
 		width: 400px;
 		padding : 0 0;
 		margin:0;
@@ -3188,7 +3188,7 @@
 	}
 
 	.members_row{
-		margin:0 auto;
+		margin:0;
 		width:1500px;
 		height:0;
 	}
