@@ -1708,6 +1708,12 @@
 	}
 
 	.page_title{
+		margin-top: 5%;
+		text-align:center;
+
+	}
+	.small_page_title{
+		margin-top: 1%;
 		text-align:center;
 
 	}
@@ -1744,9 +1750,10 @@
 		}
 
 	hr {
+		width: 70%;
 		border: 0;
 		border-bottom: solid 1px #dbdbdb;
-		margin: 2em 0;
+		text-align: center;
 	}
 
 		hr.major {
@@ -1809,7 +1816,7 @@
 		}
 
 	section.wrapper, article.wrapper {
-		padding: 6em 0;
+		padding: 2em 0;
 	}
 
 		section.wrapper header, article.wrapper header {
@@ -3189,7 +3196,7 @@
 	.members_row{
 		margin:0 auto;
 		width:1500px;
-		height:0;
+		height:auto;
 	}
 
 	.wrapper{
