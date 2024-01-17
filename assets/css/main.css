@@ -3188,7 +3188,7 @@
 	}
 
 	.members_row{
-		margin:0;
+		margin:0 auto;
 		width:1500px;
 		height:0;
 	}
