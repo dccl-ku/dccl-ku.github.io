@@ -3021,7 +3021,7 @@
 
 /*three(본문)*/
 #three{
-	height:1500px;
+	height:auto;
 	width:100%;
 	overflow:hidden;
 }
