@@ -3190,11 +3190,10 @@
 	.members_row{
 		margin:0 auto;
 		width:1500px;
-		height:auto;
+		height:0;
 	}
 
 	.wrapper{
-
 		margin:0 auto;
 		clear:both;
 		overflow:auto;
