@@ -38,7 +38,7 @@
 			<section id="three" class="wrapper">
 				<div class="inner">
 					<h3 class="page_title">Publication</h3>
-					
+					<ol id="publicationList"></ol>
 				</div>
 			</section>
 
@@ -61,6 +61,27 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script>
+				document.addEventListener("DOMContentLoaded", function () {
+					var publicationListElement = document.getElementById("publicationList");
+					fetch("assets/publications.txt")
+						.then((response) => response.text())
+						.then((data) => {
+							var items = data.split("\n");
+							for (var i = 0; i < items.length; i += 3) {
+								var title = items[i].replace("title : ", "");
+								var author = items[i + 1].replace("author: ", "");
+								var conf = items[i + 2].replace("conf : ", "");
+	
+								var li = document.createElement("li");
+								li.innerHTML =
+									// "<strong>Title:</strong> " + title + "<br><strong>Author:</strong> " + author + "<br><strong>Conference:</strong> " + conf;
+									title + "<br>" + author + "<br>" + conf;
+								publicationListElement.appendChild(li);
+							}
+						})
+						.catch((error) => console.error(error));
+				});
+			</script>
 	</body>
 </html>
