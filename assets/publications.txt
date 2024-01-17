@@ -1,9 +1,9 @@
 title : PACTree: A High Performance Persistent Range Index Using PAC Guidelines
-author: Wook-Hee Kim, R. Madhava Krishnan, Xinwei Fu, Sanidhya Kashyap, and Changwoo Min 
+author : Wook-Hee Kim, R. Madhava Krishnan, Xinwei Fu, Sanidhya Kashyap, and Changwoo Min 
 conf : the 28th ACM Symposium on Operating Systems Principles 
 title : 제목 1
-author: 저자 1
+author : 저자 1
 conf : 컨퍼런스 1
 title : 제목 2
-author: 저자 2
+author : 저자 2
 conf : 컨퍼런스 2
