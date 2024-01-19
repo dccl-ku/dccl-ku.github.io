@@ -63,7 +63,11 @@
 
 									var parsedString = items[i].substring(colonIndex + 1).trim();
 									if(items[i].substring(0, 4) !== 'type'){
-										itemString += parsedString + "<br>";
+										if(items[i].substring(0, 5) === 'title'){
+											itemString += "<b>" + parsedString + "</b><br>";
+										}else{
+											itemString += parsedString + "<br>";
+										}
 										continue;
 									}
 									var li = document.createElement("li");
