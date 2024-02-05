@@ -23,6 +23,10 @@
 		display: block;
 	}
 
+	article {
+		width: 33.33%; /* 전체 화면 너비의 1/3로 설정 */
+	}
+
 	body {
 		line-height: 1;
 	}
