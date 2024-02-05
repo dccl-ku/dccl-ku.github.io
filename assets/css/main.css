@@ -1710,8 +1710,13 @@
 	.page_title{
 		margin-top: 5%;
 		text-align:center;
-
 	}
+
+	.members_page_title{
+		margin-top: 3%;
+		text-align:center;
+	}
+
 	.small_page_title{
 		margin-top: 1%;
 		text-align:center;
