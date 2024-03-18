@@ -87,6 +87,11 @@ type: c
 #############################################
 # journal 
 #############################################
+title : RDMA-based Sampling Port of ARINC-653
+author: Jong-Bin Lee, Sang-Jae Kim, Wook-Hee Kim, and Hyun-Wook Jin
+conf  : IEEE Embedded Systems Letters (2024)
+type: j
+
 title : Converting Concurrent Range Index Structure to Range Index Structure for Disaggregated Memory
 author: Bonmoo Koo, Jaesang Hwang, Jonghyeok Park, Wook-Hee Kim
 conf  : Applied Science (2023)
