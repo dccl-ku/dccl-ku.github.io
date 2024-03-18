@@ -1,118 +1,71 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <!--
 	Projection by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
-	<head>
-		<title>Data Centric Computing Lab - Publication</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link  rel="shortcut icon" type="image/x-icon" href="images/DCC_logo3.png">
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="subpage">
+    <head>
+        <title>Data Centric Computing Lab - Publication</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" type="image/x-icon" href="images/DCC_logo3.png" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+    </head>
+    <body class="subpage">
+        <!-- Header -->
+        <header id="header">
+            <div class="inner">
+                <div style="float: left; margin-top: 5px">
+                    <img loading="lazy" class="logo" style="height: 70px" src="images/DCC_logo3.png" href="index.html" />
+                </div>
+                <div style="float: left; height: 80px; margin-top: 15px">
+                    <a href="index.html" class="logo">
+                        <strong>
+                            <h3><b>Data Centric Computing Lab (DCCL)</b></h3>
+                        </strong>
+                    </a>
+                </div>
+                <nav id="nav">
+                    <a href="index.html">Home</a>
+                    <a href="members.html">Members</a>
+                    <a href="publication.html">Publication</a>
+                </nav>
+                <a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+            </div>
+        </header>
 
-		<!-- Header -->
-		<header id="header">
-			<div class="inner">
-				<div  style="float: left;margin-top: 5px;"><img loading="lazy" class="logo" style="height:70px;"  src="images/DCC_logo3.png" href="index.html" ></div>
-				<div  style="float: left; height: 80px; margin-top: 15px;" >
-					<a href="index.html" class="logo"> <strong>
-					<h3><b>Data Centric Computing Lab (DCCL)</b></h3>
-					</strong> </a>
-				</div>
-				<nav id="nav">
-					<a href="index.html">Home</a>
-					<a href="members.html">Members</a>
-					<a href="publication.html">Publication</a>
-			
-				</nav>
-				<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
-			</div>
-		</header>
+        <!-- Three -->
+        <section id="three" class="wrapper">
+            <div class="p_inner">
+                <h3 class="page_title">Publication</h3>
+                <h4>Conference</h4>
+                <ol id="conferenceList"></ol>
+                <h4>Journal</h4>
+                <ol id="journalList"></ol>
+                <h4>Posters</h4>
+                <ol id="posterList"></ol>
+            </div>
+        </section>
 
-		<!-- Three -->
-			<section id="three" class="wrapper">
-				<div class="p_inner">
-					<h3 class="page_title">Publication</h3>
-					<h4>Conference</h4>
-					<ol id="conferenceList"></ol>	
-					<h4>Journal</h4>
-					<ol id="journalList"></ol>	
-					<h4>Posters</h4>
-					<ol id="posterList"></ol>	
-				</div>
-				<script>
-					document.addEventListener("DOMContentLoaded", function () {
-						var conferenceListElement = document.getElementById("conferenceList");
-						var journalListElement = document.getElementById("journalList");
-						var posterListElement = document.getElementById("posterList");
-						fetch("assets/publications.txt")
-							.then((response) => response.text())
-							.then((data) => {
-								var items = data.split("\n");
-								var itemString = "";
-								for (var i = 0; i < items.length; i += 1) {
-									var colonIndex = items[i].indexOf(':');
-									
-									if (colonIndex === -1) {
-										continue;
-									}
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <div class="footer_img">
+                    <img loading="lazy" style="width: 100px" src="images/ui_kor.gif" alt="" />
+                </div>
+                <div class="copyright">
+                    1217 New Engineering Building, 120 Neungdong-ro, Gwangjin-gu, Seoul 05029. KOREA<br />
+                    Copyright © Data Centric Computing Lab all rights reserved.
+                </div>
+            </div>
+        </footer>
 
-									var parsedString = items[i].substring(colonIndex + 1).trim();
-									if(items[i].substring(0, 4) !== 'type'){
-										if(items[i].substring(0, 5) === 'title'){
-											itemString += "<b>" + parsedString + "</b><br>";
-										}else{
-											itemString += parsedString + "<br>";
-										}
-										continue;
-									}
-									var li = document.createElement("li");
-									li.innerHTML = itemString;
-									switch (parsedString.charAt(0)) {
-										case 'c':
-											conferenceListElement.appendChild(li);
-											break;
-										case 'j':
-											journalListElement.appendChild(li);
-											break;
-										case 'p':
-											posterListElement.appendChild(li);
-											break;
-										default:
-											console.error("Type Err")
-											break;
-									}
-									itemString = "";
-								}
-							})
-							.catch((error) => console.error(error));
-					});
-				</script>
-			</section>
-
-		<!-- Footer -->
-		<footer id="footer">
-			<div class="inner">
-				<div  class="footer_img">
-					<img loading="lazy"  style="width:100px;" src="images/ui_kor.gif" alt="">
-				</div>
-				<div  class="copyright">
-		1217 New Engineering Building,	
-					120 Neungdong-ro, Gwangjin-gu, Seoul 05029. KOREA<br>
-					Copyright © Data Centric Computing Lab all rights reserved.
-				</div>
-			</div>
-		</footer>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			
-	</body>
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/skel.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/publication.js" defer></script>
+    </body>
 </html>
