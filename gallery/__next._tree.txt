@@ -1,4 +1,3 @@
-:HL["/_next/static/chunks/085x1ufy1mf2q.css","style"]
 :HL["/dccl-symbol.png","image"]
 :HL["/gallery/graduation_2025winter.jpg","image"]
 :HL["/gallery/dccl_csc2024.jpg","image"]
@@ -6,4 +5,4 @@
 :HL["/gallery/graduation_2024summer.jpg","image"]
 :HL["/gallery/graduation_2024winter.jpg","image"]
 :HL["/gallery/dccl_nvramos2023.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"gallery","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"axILK9__Tj-nwVWJVoMiy"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"gallery","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}},"staleTime":300,"buildId":"iD7tuoCrxfaMyc8KLxxTe"}
